@@ -29,11 +29,7 @@
         text-decoration: line-through;
         color: gray;
 }
-#oferta{
-    margin-left: -10em;
-    margin-top: -50px;
-    font-size: 1.1em;
-    color: hsl(26, 100%, 55%);
-    
 
+#imagemprincipal{
+    border-radius: 1em;
 }
