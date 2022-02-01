@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Playfair+Display:ital@1&display=swap');
+*{
+    text-align: center;
+    margin: 0%;
+  
+}
+#subtitulo{
+    color:  hsl(26, 100%, 55%);
+    text-align: left;   
+}
+#texto,
+#descricao,
+#dinheiro,
+#valorantigo
+{
+    text-align: left;
+}
+#titulo{
+    text-align: left;
+    font-size: 3em ;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+#dinheiro{
+    font-size: 2em;
+    white-space : nowrap;
+    
+}
+#valorantigo{
+        text-decoration: line-through;
+        color: gray;
+}
+#oferta{
+    margin-left: -10em;
+    margin-top: -50px;
+    font-size: 1.1em;
+    color: hsl(26, 100%, 55%);
+    
+
+}
