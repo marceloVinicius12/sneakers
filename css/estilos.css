@@ -10,8 +10,7 @@
 }
 #texto,
 #descricao,
-#dinheiro,
-#valorantigo
+#desconto
 {
     text-align: left;
 }
@@ -20,16 +19,37 @@
     font-size: 3em ;
     font-family: 'Kumbh Sans', sans-serif;
 }
-#dinheiro{
-    font-size: 2em;
-    white-space : nowrap;
-    
-}
-#valorantigo{
-        text-decoration: line-through;
-        color: gray;
-}
-
 #imagemprincipal{
     border-radius: 1em;
+}
+.containers{
+    display: flex;
+    width: 3em;
+    margin-left: -1.5em;
+}
+.itens{
+    margin: 1em;
+}
+#porcentagem{
+    background-color: hsl(25, 100%, 94%);
+    color: orange;
+    height: 1em;
+}
+#dinheiro,
+#porcentagem{
+    font-size: 1.7em;
+}
+#desconto{
+    font-size: 1.2em;
+    color: gray;
+    margin-top: -1.2em;
+    margin-left: 0.3em;
+    text-decoration: line-through;
+}
+#tenis{
+    border-radius: 1em;  
+    margin:  0.2em;
+}
+#miniatura{
+    margin-left: -3em;
 }
