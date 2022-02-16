@@ -5,7 +5,7 @@
   
 }
 #subtitulo{
-    color:  hsl(26, 100%, 55%);
+    color:  rgb(255, 125, 26);
     text-align: left;   
 }
 #texto,
@@ -51,5 +51,40 @@
     margin:  0.2em;
 }
 #miniatura{
-    margin-left: -3em;
+    margin-left: -1em;
+}
+@media(max-width: 991px)
+{
+    #tenis{
+        display: none;
+    }
+    #texto,
+    #descricao,
+    #desconto{
+        align-items: center;
+        margin-left: 0.8em;
+    }
+    #titulo{
+        align-items: center;
+        text-align: center;
+    }
+    #dinheiro,
+    #porcentagem,
+    #desconto{
+        margin-left: 3em;
+    }
+}
+#tenis:hover{
+background-color: gray;
+font-size: 3em;
+}
+#btn{
+    background-color: rgb(255, 125, 26);
+    font-size: 1.5em;
+    border-radius: 0.2em;
+    width: 8.3em;
+    color: white;
+    align-items: center;
+    text-align: center;
+    
 }
